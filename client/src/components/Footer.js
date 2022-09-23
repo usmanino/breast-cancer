@@ -6,7 +6,7 @@ const Footer = () => {
     <Flex w="full" bg={useColorModeValue("gray.50", "gray.800")} p={50} alignItems="center" justifyContent="center">
       <Flex w="full" as="footer" flexDir={{ base: "column", sm: "row" }} align="center" justify="space-between" px="6" py="4" bg="white">
         <chakra.a href="#" fontSize="xl" fontWeight="bold" color="pink.400">Morena </chakra.a>
-        <chakra.p py={{ base: "2", sm: "0" }} color="pink.400">Made with love 💗 </chakra.p>
+        <chakra.p py={{ base: "2", sm: "0" }} color="pink.400">Developed by Oloyede samuel lekan, 19d/47xcs/00189 </chakra.p>
 
         <Flex mx="-2">
           <chakra.a href="https://www.linkedin.com/in/bwooo/" target="_blank" m={2} color="gray.600" _hover={{color: "pink.400"}} aria-label="Linkedin">
