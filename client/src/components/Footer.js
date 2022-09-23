@@ -3,7 +3,7 @@ import { chakra, Flex, Icon, useColorModeValue } from "@chakra-ui/react";
 
 const Footer = () => {
   return (
-    <Flex w="full" bg={useColorModeValue("gray.50", "gray.800")} p={50} alignItems="center" justifyContent="center">
+    <Flex mx="-2">
       <Flex w="full" as="footer" flexDir={{ base: "column", sm: "row" }} align="center" justify="space-between" px="6" py="4" bg="white">
         {/* <chakra.a href="#" fontSize="xl" fontWeight="bold" color="pink.400">Morena </chakra.a> */}
         <chakra.p py={{ base: "2", sm: "0" }} color="pink.400">Developed by Oloyede samuel lekan, 19d/47xcs/00189... </chakra.p>
