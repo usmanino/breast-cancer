@@ -280,7 +280,7 @@ const PREDICTION_URL = '/predict';
                    _hover={{
                      bg: 'pink.500',
                    }}>
-                   Classify Breast Tumor
+                   Classify Tumor
                  </Button> 
                 )}
                 
